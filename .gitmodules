@@ -1,3 +1,7 @@
 [submodule "gen/extern/fil-blst"]
 	path = gen/extern/fil-blst
 	url = https://github.com/filecoin-project/fil-blst.git
+[submodule "gen/extern/filecoin-ffi"]
+	path = gen/extern/filecoin-ffi
+	url = https://github.com/chenjianmei111/filecoin-ffi.git
+	branch = chenjianmei
