@@ -3,7 +3,7 @@ package builders
 import (
 	"github.com/ipfs/go-cid"
 
-	"github.com/filecoin-project/test-vectors/schema"
+	"github.com/chenjianmei111/test-vectors/schema"
 
 	"github.com/filecoin-project/go-state-types/abi"
 )

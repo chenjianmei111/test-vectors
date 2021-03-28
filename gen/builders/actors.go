@@ -10,18 +10,18 @@ import (
 
 	"github.com/filecoin-project/lotus/chain/actors"
 
-	builtin0 "github.com/filecoin-project/specs-actors/actors/builtin"
-	account0 "github.com/filecoin-project/specs-actors/actors/builtin/account"
-	miner0 "github.com/filecoin-project/specs-actors/actors/builtin/miner"
-	power0 "github.com/filecoin-project/specs-actors/actors/builtin/power"
+	builtin0 "github.com/chenjianmei111/specs-actors/actors/builtin"
+	account0 "github.com/chenjianmei111/specs-actors/actors/builtin/account"
+	miner0 "github.com/chenjianmei111/specs-actors/actors/builtin/miner"
+	power0 "github.com/chenjianmei111/specs-actors/actors/builtin/power"
 
-	builtin2 "github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	account2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/account"
-	miner2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/miner"
-	power2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/power"
+	builtin2 "github.com/chenjianmei111/specs-actors/v2/actors/builtin"
+	account2 "github.com/chenjianmei111/specs-actors/v2/actors/builtin/account"
+	miner2 "github.com/chenjianmei111/specs-actors/v2/actors/builtin/miner"
+	power2 "github.com/chenjianmei111/specs-actors/v2/actors/builtin/power"
 
-	adt0 "github.com/filecoin-project/specs-actors/actors/util/adt"
-	adt2 "github.com/filecoin-project/specs-actors/v2/actors/util/adt"
+	adt0 "github.com/chenjianmei111/specs-actors/actors/util/adt"
+	adt2 "github.com/chenjianmei111/specs-actors/v2/actors/util/adt"
 )
 
 type Account struct {

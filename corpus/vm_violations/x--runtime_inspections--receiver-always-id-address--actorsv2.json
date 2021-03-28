@@ -22,11 +22,11 @@
 				"version": "v0.9.1-0.20201008141726-3201e0eb8fd8"
 			},
 			{
-				"source": "github.com/filecoin-project/specs-actors",
+				"source": "github.com/chenjianmei111/specs-actors",
 				"version": "v0.9.12"
 			},
 			{
-				"source": "github.com/filecoin-project/specs-actors/v2",
+				"source": "github.com/chenjianmei111/specs-actors/v2",
 				"version": "v2.1.0"
 			}
 		]

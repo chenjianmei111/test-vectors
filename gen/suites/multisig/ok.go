@@ -9,13 +9,13 @@ import (
 	"github.com/filecoin-project/lotus/chain/actors/builtin/multisig"
 	"github.com/filecoin-project/lotus/chain/types"
 
-	"github.com/filecoin-project/specs-actors/actors/builtin"
-	init0 "github.com/filecoin-project/specs-actors/actors/builtin/init"
-	multisig0 "github.com/filecoin-project/specs-actors/actors/builtin/multisig"
+	"github.com/chenjianmei111/specs-actors/actors/builtin"
+	init0 "github.com/chenjianmei111/specs-actors/actors/builtin/init"
+	multisig0 "github.com/chenjianmei111/specs-actors/actors/builtin/multisig"
 
 	"github.com/filecoin-project/go-address"
 
-	. "github.com/filecoin-project/test-vectors/gen/builders"
+	. "github.com/chenjianmei111/test-vectors/gen/builders"
 )
 
 func constructor(v *MessageVectorBuilder) {

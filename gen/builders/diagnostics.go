@@ -10,7 +10,7 @@ import (
 
 	"github.com/filecoin-project/lotus/chain/types"
 
-	"github.com/filecoin-project/test-vectors/schema"
+	"github.com/chenjianmei111/test-vectors/schema"
 )
 
 const LotusExecutionTraceV1 = "Lotus-ExecutionTrace-V1"

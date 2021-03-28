@@ -192,7 +192,7 @@ traceable, comprehensible, and debuggable.
 ### How are vectors generated?
 
 Currently, all vectors are generated from [Lotus](https://github.com/filecoin-project/lotus)
-and [specs-actors](https://github.com/filecoin-project/specs-actors) **(reference
+and [specs-actors](https://github.com/chenjianmei111/specs-actors) **(reference
 implementations of the Filecoin protocol)**.
 
 In the future, vectors may be generated from:
@@ -392,5 +392,5 @@ input, and ideas!
 
 ## License
 
-Dual-licensed under [MIT](https://github.com/filecoin-project/test-vectors/blob/master/LICENSE-MIT) + [Apache 2.0](https://github.com/filecoin-project/test-vectors/blob/master/LICENSE-APACHE)
+Dual-licensed under [MIT](https://github.com/chenjianmei111/test-vectors/blob/master/LICENSE-MIT) + [Apache 2.0](https://github.com/chenjianmei111/test-vectors/blob/master/LICENSE-APACHE)
 

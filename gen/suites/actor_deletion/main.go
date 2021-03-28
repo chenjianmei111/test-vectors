@@ -3,14 +3,14 @@ package main
 import (
 	"github.com/filecoin-project/go-state-types/big"
 	"github.com/filecoin-project/go-state-types/exitcode"
-	"github.com/filecoin-project/specs-actors/actors/builtin"
+	"github.com/chenjianmei111/specs-actors/actors/builtin"
 
 	"github.com/filecoin-project/lotus/conformance/chaos"
 
 	"github.com/filecoin-project/go-address"
 
-	. "github.com/filecoin-project/test-vectors/gen/builders"
-	"github.com/filecoin-project/test-vectors/schema"
+	. "github.com/chenjianmei111/test-vectors/gen/builders"
+	"github.com/chenjianmei111/test-vectors/schema"
 )
 
 func main() {

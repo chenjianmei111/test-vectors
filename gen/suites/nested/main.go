@@ -1,8 +1,8 @@
 package main
 
 import (
-	. "github.com/filecoin-project/test-vectors/gen/builders"
-	"github.com/filecoin-project/test-vectors/schema"
+	. "github.com/chenjianmei111/test-vectors/gen/builders"
+	"github.com/chenjianmei111/test-vectors/schema"
 )
 
 func main() {
@@ -86,7 +86,7 @@ func main() {
 				ID:      "fail-missing-params",
 				Version: "v1",
 				Desc:    "",
-				Comment: "nested message exit code should be ErrSerialization see https://github.com/filecoin-project/test-vectors/issues/93#issuecomment-689593946",
+				Comment: "nested message exit code should be ErrSerialization see https://github.com/chenjianmei111/test-vectors/issues/93#issuecomment-689593946",
 			},
 			MessageFunc: nestedSends_FailMissingParams,
 			Mode:        ModeLenientAssertions,
@@ -97,7 +97,7 @@ func main() {
 				ID:      "fail-mismatch-params",
 				Version: "v1",
 				Desc:    "",
-				Comment: "nested message exit code should be ErrSerialization see https://github.com/filecoin-project/test-vectors/issues/93#issuecomment-689593946",
+				Comment: "nested message exit code should be ErrSerialization see https://github.com/chenjianmei111/test-vectors/issues/93#issuecomment-689593946",
 			},
 			MessageFunc: nestedSends_FailMismatchParams,
 			Mode:        ModeLenientAssertions,

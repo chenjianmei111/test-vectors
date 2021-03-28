@@ -9,7 +9,7 @@ import (
 	"github.com/filecoin-project/lotus/chain/actors/builtin/paych"
 	"github.com/filecoin-project/lotus/chain/types"
 
-	. "github.com/filecoin-project/test-vectors/gen/builders"
+	. "github.com/chenjianmei111/test-vectors/gen/builders"
 )
 
 func failActorExecutionAborted(v *MessageVectorBuilder) {

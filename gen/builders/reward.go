@@ -5,7 +5,7 @@ import (
 
 	"github.com/filecoin-project/go-state-types/abi"
 	"github.com/filecoin-project/go-state-types/big"
-	"github.com/filecoin-project/specs-actors/actors/builtin"
+	"github.com/chenjianmei111/specs-actors/actors/builtin"
 )
 
 // RewardSummary holds the state we care about insofar rewards are concerned, at

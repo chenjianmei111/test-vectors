@@ -3,11 +3,11 @@ package main
 import (
 	"github.com/filecoin-project/go-state-types/abi"
 	"github.com/filecoin-project/go-state-types/big"
-	"github.com/filecoin-project/specs-actors/actors/builtin"
-	reward2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/reward"
+	"github.com/chenjianmei111/specs-actors/actors/builtin"
+	reward2 "github.com/chenjianmei111/specs-actors/v2/actors/builtin/reward"
 
 	"github.com/filecoin-project/lotus/chain/actors"
-	. "github.com/filecoin-project/test-vectors/gen/builders"
+	. "github.com/chenjianmei111/test-vectors/gen/builders"
 )
 
 var basefee = abi.NewTokenAmount(100)

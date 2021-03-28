@@ -7,7 +7,7 @@ import (
 	"github.com/filecoin-project/go-state-types/exitcode"
 	"github.com/filecoin-project/lotus/conformance/chaos"
 
-	. "github.com/filecoin-project/test-vectors/gen/builders"
+	. "github.com/chenjianmei111/test-vectors/gen/builders"
 )
 
 func callerValidation(args chaos.CallerValidationArgs, expectedCode exitcode.ExitCode) func(v *MessageVectorBuilder) {

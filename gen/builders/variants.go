@@ -10,7 +10,7 @@ import (
 	"github.com/filecoin-project/lotus/chain/actors"
 	"github.com/filecoin-project/lotus/chain/types"
 
-	"github.com/filecoin-project/test-vectors/schema"
+	"github.com/chenjianmei111/test-vectors/schema"
 )
 
 // ProtocolVersion represents a protocol upgrade we track.

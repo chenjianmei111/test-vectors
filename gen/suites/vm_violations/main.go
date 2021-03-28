@@ -5,15 +5,15 @@ import (
 
 	"github.com/filecoin-project/go-address"
 	"github.com/filecoin-project/go-state-types/exitcode"
-	builtin0 "github.com/filecoin-project/specs-actors/actors/builtin"
-	builtin2 "github.com/filecoin-project/specs-actors/v2/actors/builtin"
+	builtin0 "github.com/chenjianmei111/specs-actors/actors/builtin"
+	builtin2 "github.com/chenjianmei111/specs-actors/v2/actors/builtin"
 	"github.com/ipfs/go-cid"
 	"github.com/multiformats/go-multihash"
 
 	"github.com/filecoin-project/lotus/conformance/chaos"
 
-	. "github.com/filecoin-project/test-vectors/gen/builders"
-	"github.com/filecoin-project/test-vectors/schema"
+	. "github.com/chenjianmei111/test-vectors/gen/builders"
+	"github.com/chenjianmei111/test-vectors/schema"
 )
 
 func main() {

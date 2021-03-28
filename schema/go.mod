@@ -1,4 +1,4 @@
-module github.com/filecoin-project/test-vectors/schema
+module github.com/chenjianmei111/test-vectors/schema
 
 go 1.14
 
