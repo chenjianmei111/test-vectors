@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/filecoin-project/go-state-types/big"
-	"github.com/filecoin-project/go-state-types/exitcode"
+	"github.com/chenjianmei111/go-state-types/big"
+	"github.com/chenjianmei111/go-state-types/exitcode"
 	"github.com/chenjianmei111/specs-actors/actors/builtin"
 
-	"github.com/filecoin-project/lotus/conformance/chaos"
+	"github.com/chenjianmei111/lotus/conformance/chaos"
 
-	"github.com/filecoin-project/go-address"
+	"github.com/chenjianmei111/go-address"
 
 	. "github.com/chenjianmei111/test-vectors/gen/builders"
 	"github.com/chenjianmei111/test-vectors/schema"
@@ -38,7 +38,7 @@ func main() {
 			Selector:    schema.Selector{"chaos_actor": "true"},
 			MessageFunc: deleteActorWithBeneficiary(big.NewInt(50), address.Undef, exitcode.Ok),
 		},
-		// TODO: uncomment when merged https://github.com/filecoin-project/lotus/pull/3479
+		// TODO: uncomment when merged https://github.com/chenjianmei111/lotus/pull/3479
 		// It is not marked with HintInvalid because it panics entirely.
 		// &VectorDef{
 		// 	Metadata: &Metadata{
@@ -54,7 +54,7 @@ func main() {
 				ID:      "fail-delete-w-balance-and-self-beneficiary",
 				Version: "v1",
 				Desc:    "fails when actor with non-zero balance is deleted but beneficiary is the calling actor",
-				Comment: "should abort with SysErrorIllegalArgument if the beneficiary is the calling actor, will be fixed in https://github.com/filecoin-project/lotus/pull/3478",
+				Comment: "should abort with SysErrorIllegalArgument if the beneficiary is the calling actor, will be fixed in https://github.com/chenjianmei111/lotus/pull/3478",
 			},
 			Selector:    schema.Selector{"chaos_actor": "true"},
 			Hints:       []string{schema.HintIncorrect, schema.HintNegate},

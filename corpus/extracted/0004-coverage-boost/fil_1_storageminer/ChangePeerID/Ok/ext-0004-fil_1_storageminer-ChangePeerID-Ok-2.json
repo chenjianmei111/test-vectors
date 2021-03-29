@@ -19,7 +19,7 @@
         "source": "execution_tipset:{bafy2bzaceaqwnxfeh6fwcddmdnnjvwyrlp7vxiei6fmf4sscin3yu3hl2cthq,bafy2bzacea6mpgegleppvqjwiv72rxi2vswcvekicgpveslulwyv47i6qiv4u,bafy2bzacecdgbdxypdttrbsnpv6dghtejrtaqosr6cdxsgxsvnuaez34z3vny,bafy2bzaceanbshqqeicwtaqorgxxibtohyoc5supcjlrz6cdjcy2uqnzjggu6}"
       },
       {
-        "source": "github.com/filecoin-project/lotus",
+        "source": "github.com/chenjianmei111/lotus",
         "version": "0.10.0+git.0b9499a00.dirty+api0.16.0"
       }
     ]

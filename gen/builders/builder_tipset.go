@@ -5,10 +5,10 @@ import (
 
 	"github.com/chenjianmei111/test-vectors/schema"
 
-	"github.com/filecoin-project/lotus/chain/types"
-	"github.com/filecoin-project/lotus/conformance"
+	"github.com/chenjianmei111/lotus/chain/types"
+	"github.com/chenjianmei111/lotus/conformance"
 
-	"github.com/filecoin-project/go-state-types/abi"
+	"github.com/chenjianmei111/go-state-types/abi"
 
 	"github.com/ipfs/go-cid"
 )

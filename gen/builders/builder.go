@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/filecoin-project/lotus/chain/vm"
+	"github.com/chenjianmei111/lotus/chain/vm"
 
 	"github.com/chenjianmei111/test-vectors/schema"
 )

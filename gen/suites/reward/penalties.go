@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/big"
+	"github.com/chenjianmei111/go-state-types/abi"
+	"github.com/chenjianmei111/go-state-types/big"
 	"github.com/chenjianmei111/specs-actors/actors/builtin"
 	reward2 "github.com/chenjianmei111/specs-actors/v2/actors/builtin/reward"
 
-	"github.com/filecoin-project/lotus/chain/actors"
+	"github.com/chenjianmei111/lotus/chain/actors"
 	. "github.com/chenjianmei111/test-vectors/gen/builders"
 )
 
@@ -23,7 +23,7 @@ var basefee = abi.NewTokenAmount(100)
 //
 // Note that, currently, penalties are only levied against the first miner
 // to present a block with the penalisable message.
-// See https://github.com/filecoin-project/lotus/issues/3491. In real networks,
+// See https://github.com/chenjianmei111/lotus/issues/3491. In real networks,
 // the first block will be the one with the lowest ticket, thus that miner will
 // be the one to swallow the penalty.
 //

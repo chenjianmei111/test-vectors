@@ -8,7 +8,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/filecoin-project/lotus/chain/types"
+	"github.com/chenjianmei111/lotus/chain/types"
 
 	"github.com/chenjianmei111/test-vectors/schema"
 )

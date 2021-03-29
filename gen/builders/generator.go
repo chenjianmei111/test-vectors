@@ -91,7 +91,7 @@ func init() {
 }
 
 func getBuildInfo() []schema.GenerationData {
-	deps := []string{"github.com/filecoin-project/lotus", "github.com/chenjianmei111/specs-actors"}
+	deps := []string{"github.com/chenjianmei111/lotus", "github.com/chenjianmei111/specs-actors"}
 
 	bi, ok := debug.ReadBuildInfo()
 	if !ok {

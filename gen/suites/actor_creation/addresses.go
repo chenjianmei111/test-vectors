@@ -1,17 +1,17 @@
 package main
 
 import (
-	"github.com/filecoin-project/go-state-types/exitcode"
+	"github.com/chenjianmei111/go-state-types/exitcode"
 
-	"github.com/filecoin-project/lotus/chain/actors/builtin/paych"
-	"github.com/filecoin-project/lotus/chain/types"
+	"github.com/chenjianmei111/lotus/chain/actors/builtin/paych"
+	"github.com/chenjianmei111/lotus/chain/types"
 
 	. "github.com/chenjianmei111/test-vectors/gen/builders"
 
-	"github.com/filecoin-project/go-state-types/big"
+	"github.com/chenjianmei111/go-state-types/big"
 	init_ "github.com/chenjianmei111/specs-actors/actors/builtin/init"
 
-	"github.com/filecoin-project/go-address"
+	"github.com/chenjianmei111/go-address"
 )
 
 func sequentialAddresses(v *MessageVectorBuilder) {

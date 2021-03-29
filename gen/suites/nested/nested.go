@@ -3,13 +3,13 @@ package main
 import (
 	"bytes"
 
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/big"
-	"github.com/filecoin-project/go-state-types/cbor"
-	"github.com/filecoin-project/go-state-types/exitcode"
-	"github.com/filecoin-project/lotus/chain/actors/builtin/multisig"
-	"github.com/filecoin-project/lotus/chain/types"
+	"github.com/chenjianmei111/go-address"
+	"github.com/chenjianmei111/go-state-types/abi"
+	"github.com/chenjianmei111/go-state-types/big"
+	"github.com/chenjianmei111/go-state-types/cbor"
+	"github.com/chenjianmei111/go-state-types/exitcode"
+	"github.com/chenjianmei111/lotus/chain/actors/builtin/multisig"
+	"github.com/chenjianmei111/lotus/chain/types"
 	"github.com/chenjianmei111/specs-actors/actors/builtin"
 
 	init0 "github.com/chenjianmei111/specs-actors/actors/builtin/init"
@@ -19,7 +19,7 @@ import (
 
 	typegen "github.com/whyrusleeping/cbor-gen"
 
-	"github.com/filecoin-project/lotus/conformance/chaos"
+	"github.com/chenjianmei111/lotus/conformance/chaos"
 
 	. "github.com/chenjianmei111/test-vectors/gen/builders"
 )
