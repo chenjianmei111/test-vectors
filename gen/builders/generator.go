@@ -17,7 +17,7 @@ import (
 
 	"github.com/minio/blake2b-simd"
 
-	"github.com/filecoin-project/test-vectors/schema"
+	"github.com/chenjianmei111/test-vectors/schema"
 )
 
 type Metadata = schema.Metadata
@@ -91,7 +91,7 @@ func init() {
 }
 
 func getBuildInfo() []schema.GenerationData {
-	deps := []string{"github.com/filecoin-project/lotus", "github.com/filecoin-project/specs-actors"}
+	deps := []string{"github.com/chenjianmei111/lotus", "github.com/chenjianmei111/specs-actors"}
 
 	bi, ok := debug.ReadBuildInfo()
 	if !ok {

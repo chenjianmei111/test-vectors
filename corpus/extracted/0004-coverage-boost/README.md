@@ -2,7 +2,7 @@
 
 > first extracted around Wed Sep 30 15:00:00 UTC 2020 (tvx version: eb6191d0ffd01a7cf7f8544a31acf307b1799fb2)
 >
-> reextracted around Wed Oct 14 18:00:00 UTC 2020 (tvx version: https://github.com/filecoin-project/lotus/pull/4393)
+> reextracted around Wed Oct 14 18:00:00 UTC 2020 (tvx version: https://github.com/chenjianmei111/lotus/pull/4393)
 
 This is a selection of 344 messages extracted from heights the Space Race chain
 (which later transitioned to Ignition), up until height ~57000, with similar

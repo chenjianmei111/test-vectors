@@ -11,22 +11,22 @@
 		"id": "receiver-always-id-address",
 		"version": "v1",
 		"description": "verify Runtime.Receiver() returns an ID address even when message is sent to a robust address",
-		"comment": "the call to Runtime.Receiver() should return an ID address but returns the robust address that the message was sent to, fixed by https://github.com/filecoin-project/lotus/pull/3589",
+		"comment": "the call to Runtime.Receiver() should return an ID address but returns the robust address that the message was sent to, fixed by https://github.com/chenjianmei111/lotus/pull/3589",
 		"gen": [
 			{
 				"source": "genscript",
 				"version": "c5af3c231f0e5f82af3d624323893b76fd100630"
 			},
 			{
-				"source": "github.com/filecoin-project/lotus",
+				"source": "github.com/chenjianmei111/lotus",
 				"version": "v0.9.1-0.20201008141726-3201e0eb8fd8"
 			},
 			{
-				"source": "github.com/filecoin-project/specs-actors",
+				"source": "github.com/chenjianmei111/specs-actors",
 				"version": "v0.9.12"
 			},
 			{
-				"source": "github.com/filecoin-project/specs-actors/v2",
+				"source": "github.com/chenjianmei111/specs-actors/v2",
 				"version": "v2.1.0"
 			}
 		]

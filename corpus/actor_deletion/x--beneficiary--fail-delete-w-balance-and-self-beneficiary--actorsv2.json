@@ -11,22 +11,22 @@
 		"id": "fail-delete-w-balance-and-self-beneficiary",
 		"version": "v1",
 		"description": "fails when actor with non-zero balance is deleted but beneficiary is the calling actor",
-		"comment": "should abort with SysErrorIllegalArgument if the beneficiary is the calling actor, will be fixed in https://github.com/filecoin-project/lotus/pull/3478",
+		"comment": "should abort with SysErrorIllegalArgument if the beneficiary is the calling actor, will be fixed in https://github.com/chenjianmei111/lotus/pull/3478",
 		"gen": [
 			{
 				"source": "genscript",
 				"version": "c5af3c231f0e5f82af3d624323893b76fd100630"
 			},
 			{
-				"source": "github.com/filecoin-project/lotus",
+				"source": "github.com/chenjianmei111/lotus",
 				"version": "v0.9.1-0.20201008141726-3201e0eb8fd8"
 			},
 			{
-				"source": "github.com/filecoin-project/specs-actors",
+				"source": "github.com/chenjianmei111/specs-actors",
 				"version": "v0.9.12"
 			},
 			{
-				"source": "github.com/filecoin-project/specs-actors/v2",
+				"source": "github.com/chenjianmei111/specs-actors/v2",
 				"version": "v2.1.0"
 			}
 		]

@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/go-state-types/big"
-	"github.com/filecoin-project/go-state-types/exitcode"
-	"github.com/filecoin-project/specs-actors/actors/builtin"
+	"github.com/chenjianmei111/go-address"
+	"github.com/chenjianmei111/go-state-types/abi"
+	"github.com/chenjianmei111/go-state-types/big"
+	"github.com/chenjianmei111/go-state-types/exitcode"
+	"github.com/chenjianmei111/specs-actors/actors/builtin"
 
-	. "github.com/filecoin-project/test-vectors/gen/builders"
+	. "github.com/chenjianmei111/test-vectors/gen/builders"
 )
 
 var (
@@ -35,7 +35,7 @@ func main() {
 				ID:      "penalize-inexistent-sender-multiple-miners",
 				Version: "v1",
 				Desc:    "verifies that a miner including a message from an inexistent sender is penalized; only the first miner is penalized",
-				Comment: "https://github.com/filecoin-project/lotus/issues/3491",
+				Comment: "https://github.com/chenjianmei111/lotus/issues/3491",
 			},
 			TipsetFunc: minerPenalized(3, func(v *TipsetVectorBuilder) {
 				v.StagedMessages.SetDefaults(GasLimit(1_000_000_000), GasPremium(0), GasFeeCap(200))
@@ -50,7 +50,7 @@ func main() {
 				ID:      "penalize-non-account-sender-multiple-miners",
 				Version: "v1",
 				Desc:    "verifies that a miner including a message from a non-account sender is penalized; only the first miner is penalized",
-				Comment: "https://github.com/filecoin-project/lotus/issues/3491",
+				Comment: "https://github.com/chenjianmei111/lotus/issues/3491",
 			},
 			TipsetFunc: minerPenalized(3, func(v *TipsetVectorBuilder) {
 				v.StagedMessages.SetDefaults(GasLimit(1_000_000_000), GasPremium(0), GasFeeCap(200))
@@ -73,7 +73,7 @@ func main() {
 				ID:      "penalize-bad-nonce-multiple-miners",
 				Version: "v1",
 				Desc:    "verifies that a miner including a message with a bad nonce is penalized; only the first miner is penalized",
-				Comment: "https://github.com/filecoin-project/lotus/issues/3491",
+				Comment: "https://github.com/chenjianmei111/lotus/issues/3491",
 			},
 			TipsetFunc: minerPenalized(3, func(v *TipsetVectorBuilder) {
 				v.StagedMessages.SetDefaults(GasLimit(1_000_000_000), GasPremium(0), GasFeeCap(200))
@@ -88,7 +88,7 @@ func main() {
 				ID:      "penalize-insufficient-balance-to-cover-gas",
 				Version: "v1",
 				Desc:    "verifies that a miner including a message where the sender has insufficient balance to cover gas for chain inclusion is penalized; only the first miner is penalized",
-				Comment: "https://github.com/filecoin-project/lotus/issues/3491",
+				Comment: "https://github.com/chenjianmei111/lotus/issues/3491",
 			},
 			TipsetFunc: minerPenalized(3, func(v *TipsetVectorBuilder) {
 				v.StagedMessages.SetDefaults(GasLimit(1_000_000_000), GasPremium(0), GasFeeCap(200))

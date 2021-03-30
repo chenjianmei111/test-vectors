@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/filecoin-project/lotus/chain/types"
-	"github.com/filecoin-project/lotus/chain/wallet"
-	"github.com/filecoin-project/lotus/lib/sigs"
+	"github.com/chenjianmei111/lotus/chain/types"
+	"github.com/chenjianmei111/lotus/chain/wallet"
+	"github.com/chenjianmei111/lotus/lib/sigs"
 
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-crypto"
+	"github.com/chenjianmei111/go-address"
+	"github.com/chenjianmei111/go-crypto"
 
-	acrypto "github.com/filecoin-project/go-state-types/crypto"
+	acrypto "github.com/chenjianmei111/go-state-types/crypto"
 )
 
 type Wallet struct {

@@ -3,17 +3,17 @@ package main
 import (
 	"fmt"
 
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/exitcode"
-	builtin0 "github.com/filecoin-project/specs-actors/actors/builtin"
-	builtin2 "github.com/filecoin-project/specs-actors/v2/actors/builtin"
+	"github.com/chenjianmei111/go-address"
+	"github.com/chenjianmei111/go-state-types/exitcode"
+	builtin0 "github.com/chenjianmei111/specs-actors/actors/builtin"
+	builtin2 "github.com/chenjianmei111/specs-actors/v2/actors/builtin"
 	"github.com/ipfs/go-cid"
 	"github.com/multiformats/go-multihash"
 
-	"github.com/filecoin-project/lotus/conformance/chaos"
+	"github.com/chenjianmei111/lotus/conformance/chaos"
 
-	. "github.com/filecoin-project/test-vectors/gen/builders"
-	"github.com/filecoin-project/test-vectors/schema"
+	. "github.com/chenjianmei111/test-vectors/gen/builders"
+	"github.com/chenjianmei111/test-vectors/schema"
 )
 
 func main() {
@@ -260,7 +260,7 @@ func main() {
 				ID:      "readonly",
 				Version: "v1",
 				Desc:    "test an actor cannot ILLEGALLY mutate readonly state",
-				Comment: "should abort with SysErrorIllegalActor, not succeed with Ok, see https://github.com/filecoin-project/lotus/issues/3545",
+				Comment: "should abort with SysErrorIllegalActor, not succeed with Ok, see https://github.com/chenjianmei111/lotus/issues/3545",
 			},
 			Selector:    map[string]string{"chaos_actor": "true"},
 			Mode:        ModeLenientAssertions,
@@ -272,7 +272,7 @@ func main() {
 				ID:      "after-transaction",
 				Version: "v1",
 				Desc:    "test an actor cannot ILLEGALLY mutate state acquired for transaction but used after the transaction has ended",
-				Comment: "should abort with SysErrorIllegalActor, not succeed with Ok, see https://github.com/filecoin-project/lotus/issues/3545",
+				Comment: "should abort with SysErrorIllegalActor, not succeed with Ok, see https://github.com/chenjianmei111/lotus/issues/3545",
 			},
 			Selector:    map[string]string{"chaos_actor": "true"},
 			Mode:        ModeLenientAssertions,
@@ -364,7 +364,7 @@ func main() {
 				ID:      "receiver-always-id-address",
 				Version: "v1",
 				Desc:    "verify Runtime.Receiver() returns an ID address even when message is sent to a robust address",
-				Comment: "the call to Runtime.Receiver() should return an ID address but returns the robust address that the message was sent to, fixed by https://github.com/filecoin-project/lotus/pull/3589",
+				Comment: "the call to Runtime.Receiver() should return an ID address but returns the robust address that the message was sent to, fixed by https://github.com/chenjianmei111/lotus/pull/3589",
 			},
 			Selector:    map[string]string{"chaos_actor": "true"},
 			Mode:        ModeLenientAssertions,
